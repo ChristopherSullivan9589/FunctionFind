@@ -1,0 +1,52 @@
+.host-event {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .host-event h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .host-event p {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .event-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .event-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+  }
+  
+  .event-form input,
+  .event-form textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .event-form button {
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .event-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .confirmation {
+    text-align: center;
+  }
