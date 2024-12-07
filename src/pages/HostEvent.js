@@ -13,6 +13,7 @@ function HostEvent() {
     time: '',
     location: '',
     description: '',
+    category: '', // Field for category
     user: '', // This will hold the UID
   });
 
@@ -129,6 +130,20 @@ function HostEvent() {
             onChange={handleChange}
             required
           ></textarea>
+
+          <label htmlFor="category">Category:</label>
+          <select
+            id="category"
+            name="category"
+            value={formData.category}
+            onChange={handleChange}
+            required
+          >
+            <option value="">Select a category</option>
+            <option value="Music">Music</option>
+            <option value="Sport">Sport</option>
+            <option value="Networking">Networking</option>
+          </select>
 
           <button type="submit">Submit Event</button>
         </form>

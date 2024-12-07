@@ -45,3 +45,13 @@
     margin: 5px 0;
     line-height: 1.5;
   }
+
+  .filters {
+    display: flex;                /* Use flexbox for alignment */
+    flex-direction: column;      /* Arrange items vertically */
+    align-items: center;         /* Center items horizontally */
+    justify-content: center;      /* Center items vertically if needed */
+    margin: 20px auto;          /* Add margin for spacing */
+    width: 100%;                 /* Make the container take full width */
+    max-width: 600px;           /* Optional: Set a max width */
+  }
