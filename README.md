@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+### FunctionFind 🎉
+FunctionFind is a web application designed to help users discover and host events in their area. Leveraging Firebase and Next.js, the platform provides secure user authentication, an intuitive event hosting experience, and a recommendation engine that personalizes event discovery based on user preferences.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project aims to bring communities together by making event discovery and hosting effortless and tailored to individual interests.
 
-## Available Scripts
+**Features**
 
-In the project directory, you can run:
+🗓 Event Hosting
+- Users can create, update, and manage events with ease.
+- Events include details such as date, time, location, category, and description.
+  
+🔍 Event Discovery
+- View a curated list of events happening nearby.
+- Search and filter events based on categories, location, or preferences.
+  
+🎯 Recommendation Engine
+- Personalized recommendations based on user activity and interests.
 
-### `npm start`
+🔒 Secure Authentication
+- User accounts are protected with Firebase Authentication.
+- Authenticated users can manage their events and access personalized features.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Technologies Used**
+Frontend:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Next.js (React Framework)
+- Tailwind CSS for styling
+  
+Backend & Database:
 
-### `npm test`
+- Firebase Authentication
+- Firebase Firestore
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Setup Instructions
+- Clone repository and install dependencies
+- Start the application and create an account
